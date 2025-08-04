@@ -9,10 +9,10 @@ let highLevel = [];
 let highScore = localStorage.getItem("highScore") || 0;
 
 
-let startSound = new Audio("startMusic.mp3");
+let startSound = new Audio("StartMusic.mp3");
 startSound.volume = 0.4; 
 
-let backgroundSound = new Audio("backgroundMusic.mp3");
+let backgroundSound = new Audio("BackgroundMusic.mp3");
 
 backgroundSound.loop = true;
 backgroundSound.volume = 0.04;
