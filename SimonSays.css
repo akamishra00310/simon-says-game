@@ -37,7 +37,7 @@ h2{
     
     gap: 1rem;
     align-items:center;
-    justify-content:space-between;
+    justify-content:space-evenly;
     margin: auto;
   
     padding: 1rem;
@@ -140,4 +140,5 @@ button:hover {
     max-width: 40%;
   }
 }
+
 
