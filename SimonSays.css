@@ -1,0 +1,137 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+
+}
+.head{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+h2{
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.btn-container{
+    border-radius: 4%;
+
+    background-color: #daa2e4;
+    border:  solid #6c584c;
+    height: auto;
+    width: min(90vw, 90vh);
+    height: min(90vw, 90vh);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+    
+}
+.btn{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    margin-top: 1rem;
+    margin-left:1rem;
+    margin-right: 1rem;
+ height: auto;
+ flex: 1 1 35%;
+ max-width: 40%;
+ max-height: 40%;
+ aspect-ratio: 1/1;
+ border-radius: 20%;
+ 
+}
+
+.controls {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.red{
+    background-color: #e74e27;
+    border:4px solid #fa0202;
+}
+.yellow{
+    background-color: #f0cb12;
+    border:4px solid #f6fa02;
+}
+.blue{
+    background-color: #369acc;
+    border:4px solid #3532de;
+}
+.green{
+    background-color: #52e24a;
+    border:4px solid #095809;
+}
+.flash{
+    background-color: white;
+    box-shadow: 5px 5px 5px #da4e63;
+    transform: scale(1.05);
+
+}
+.userflash{
+    background-color: #323331b7;
+    box-shadow: 5px 5px 5px #8f6ab9;
+    transform: scale(1.08);
+} 
+ @media(max-width:281px)
+{
+    .btn{
+    height: auto;
+    flex: 1 1 35%;
+    max-width: 40%;
+    max-height: 40%;
+    aspect-ratio: 1/1;
+       
+    }
+}
+@media (max-width: 500px) {
+  .btn {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-container {
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+  .btn {
+    flex: 1 1 40%;
+    max-width: 40%;
+  }
+}
