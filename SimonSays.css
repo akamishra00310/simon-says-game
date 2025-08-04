@@ -139,7 +139,12 @@ button:hover {
     flex: 1 1 40%;
     max-width: 40%;
   }
+
+
+    h3{
+        margin:1rem;
 }
+
 
 
 
