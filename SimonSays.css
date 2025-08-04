@@ -27,31 +27,35 @@ h2{
 
     background-color: #daa2e4;
     border:  solid #6c584c;
+    
+    width:90vw;
+   
     height: auto;
-    width: min(90vw, 90vh);
-    height: min(90vw, 90vh);
 
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    padding: 1rem;
     
+    gap: 1rem;
+    align-items:center;
+    justify-content:space-between;
+    margin: auto;
+  
+    padding: 1rem;
+       
 }
 .btn{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
     text-align: center;
-    margin-top: 1rem;
+     margin-top: 1rem;
     margin-left:1rem;
-    margin-right: 1rem;
+    
  height: auto;
  flex: 1 1 35%;
- max-width: 40%;
- max-height: 40%;
+ max-width: 35%;
+ max-height: 35%;
  aspect-ratio: 1/1;
  border-radius: 20%;
  
@@ -106,28 +110,29 @@ button:hover {
     box-shadow: 5px 5px 5px #8f6ab9;
     transform: scale(1.08);
 } 
- @media(max-width:281px)
-{
-    .btn{
-    height: auto;
-    flex: 1 1 35%;
-    max-width: 40%;
-    max-height: 40%;
-    aspect-ratio: 1/1;
-       
+
+
+@media (min-width: 450px) {
+    .btn-container{
+      width: 100%;
+
     }
-}
-@media (max-width: 500px) {
   .btn {
-    flex: 1 1 45%;
-    max-width: 45%;
+    flex: 1 1 40%;
+    max-width: 40%;
+    
+  }
+}
+@media  (max-width: 280px) {
+  .btn {
+    width: 100%;
   }
 }
 
 @media (min-width: 768px) {
   .btn-container {
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 700px;
+    max-height: 700px;
   }
 
   .btn {
@@ -135,3 +140,4 @@ button:hover {
     max-width: 40%;
   }
 }
+
