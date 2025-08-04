@@ -123,27 +123,12 @@ button:hover {
     
   }
 }
-@media  (max-width: 280px) {
-  .btn {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .btn-container {
-    max-width: 700px;
-    max-height: 700px;
-  }
-
-  .btn {
-    flex: 1 1 40%;
-    max-width: 40%;
-  }
 
 
     h3{
         margin:1rem;
 }
+
 
 
 
