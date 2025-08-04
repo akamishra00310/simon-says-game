@@ -53,9 +53,9 @@ h2{
     margin-left:1rem;
     
  height: auto;
- flex: 1 1 35%;
- max-width: 35%;
- max-height: 35%;
+ flex: 1 1 45%;
+ max-width: 40.8%;
+ max-height: 45%;
  aspect-ratio: 1/1;
  border-radius: 20%;
  
@@ -118,8 +118,8 @@ button:hover {
 
     }
   .btn {
-    flex: 1 1 40%;
-    max-width: 40%;
+    flex: 1 1 44%;
+    max-width: 44%;
     
   }
 }
@@ -140,5 +140,6 @@ button:hover {
     max-width: 40%;
   }
 }
+
 
 
