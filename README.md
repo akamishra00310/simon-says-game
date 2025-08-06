@@ -2,8 +2,8 @@
 A web-based interactive memory game built using HTML, CSS, and JavaScript. Inspired by the classic "Simon Says" game, it challenges your ability to recall and repeat color sequences.
 
 🎮 Live Demo
-🔗 Click here to play the game
-📁 GitHub Repository
+🔗[ Click here to play the game](https://akamishra00310.github.io/simon-says-game/)
+
 
 📌 Table of Contents
 Features
