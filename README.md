@@ -4,24 +4,6 @@ A web-based interactive memory game built using HTML, CSS, and JavaScript. Inspi
 🎮 Live Demo
 🔗[ Click here to play the game](https://akamishra00310.github.io/simon-says-game/)
 
-
-📌 Table of Contents
-Features
-
-Tech Stack
-
-How to Play
-
-Screenshots
-
-Installation
-
-Folder Structure
-
-Credits
-
-License
-
 🌟 Features
 ✅ Simon-style color sequence challenge
 ✅ Start & Restart functionality
